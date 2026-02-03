@@ -217,7 +217,6 @@ function withDraw() {
 
             removeAmount(accountName,amount);
             
-
         })
         .catch(err => console.log(err)
         )
