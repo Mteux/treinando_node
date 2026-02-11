@@ -1,0 +1,25 @@
+h1{
+    color: red
+}
+
+h2{
+    color: blue;
+}
+
+p {
+    color: purple
+}
+
+#produto {
+    color: gray;
+    text-align: center;
+}
+
+#descricao {
+    color: green;
+
+}
+
+#valor {
+    background-color: yellow;
+}

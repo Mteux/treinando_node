@@ -1,0 +1,17 @@
+<h1>Home - Produtos</h1>
+
+{{#if approved}}
+    <p>Parabens, seu cadastro foi aprovado</p>
+    
+{{else}}
+    <p>O seu cadastro precisa de aprovação para acesso</p>
+{{/if}}
+<p>Nome do usuário é {{user.name}} {{user.surname}} e ele tem {{user.age}} anos</p>
+<h1>Lista de produtos</h1>
+{{#each  produtos}}
+    {{> produto}}
+{{/each}}
+{{#if auth}}
+    <p>Vc esta autenticado, <a href="/dashboard">Clique aqui</a></p>
+{{/if}}
+
